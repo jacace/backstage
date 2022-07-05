@@ -42,6 +42,8 @@ describe('ExampleComponent', () => {
         <ExampleComponent />
       </ThemeProvider>,
     );
-    expect(rendered.getByText('Welcome to jacace-plugin!')).toBeInTheDocument();
+    expect(
+      rendered.getByText("Welcome to jacace's plugin!"),
+    ).toBeInTheDocument();
   });
 });

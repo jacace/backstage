@@ -40,7 +40,7 @@ export const ExampleComponent = () => (
         <Grid item>
           <InfoCard title="Information card">
             <Typography variant="body1">
-              All content should be wrapped in a card like this.
+              Sample component with static data
             </Typography>
           </InfoCard>
         </Grid>
